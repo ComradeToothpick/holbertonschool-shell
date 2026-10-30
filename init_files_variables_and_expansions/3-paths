@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $PATH | grep -o "[^:\/]*" | sort | uniq | wc -l
